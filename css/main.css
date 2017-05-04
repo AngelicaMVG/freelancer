@@ -67,6 +67,7 @@
   font-family: lato;
   font-size: 20px;
   letter-spacing: 1px;
+  line-height: normal;
 }
 
 .btn-download {
@@ -87,10 +88,48 @@
 }
 
 /*portfolio*/
-
-#portafolio {
-	font-size: 45px;
-}
-#portfolio {
+#portfolio{
  font-family: "Montserrat";
+}
+
+.imagenes {
+
+  margin-bottom: 90px;
+}
+
+#footer {
+  color: #fff;
+  font-family: "Montserrat";
+}
+
+.contacto {
+  background-color: #2C3E50;
+  padding: 40px;
+  letter-spacing: 1px;
+}
+
+.foot {
+  background: #233140;
+  font-family: lato;
+}
+
+.linkFooter {
+  color: #18BC9C;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+.btn-redSocial {
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  font-size: 20px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 45px;
 }
