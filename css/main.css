@@ -1,3 +1,96 @@
-/*
- * Estilos de tu proyecto
- */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#about {
+  background: #18BC9C;
+  color: #fff;
+}
+.hr-star1 {
+  font-family: font-awesome;
+  height: 5px;
+  border: 3px solid #2C3E50;
+  max-width: 250px;
+  text-align: center;
+}
+
+.hr-star1::after {
+   content: "\f005";
+   font-family: FontAwesome;
+   display: inline-block;
+   position: relative;
+   top: -.1em;
+   font-size: 2em;
+   padding: 0 .25em;
+   background: #fff;
+   top: -18px;
+   color: #2C3E50;
+}
+
+.hr-star2 {
+  font-family: font-awesome;
+  height: 5px;
+  border: 3px solid #fff;
+  max-width: 250px;
+  text-align: center;
+}
+.hr-star2::after{
+  content: "\f005";
+   font-family: FontAwesome;
+   display: inline-block;
+   position: relative;
+   top: -.1em;
+   font-size: 2em;
+   padding: 0 .25em;
+   background: #18bc9c;
+   top: -18px;
+   color: white;
+}
+
+.texto {
+  font-family: Montserrat;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.textos-p {
+  font-family: lato;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.btn-download {
+  font-size: 20px;
+  font-family: lato;
+  border-radius: 6px;
+  background: #18bc9c;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.btn-download:hover {
+  background: #fff;
+  color: #18bc9c;
+  transition: .3s;
+}
+
+/*portfolio*/
+
+#portafolio {
+	font-size: 45px;
+}
+#portfolio {
+ font-family: "Montserrat";
+}
