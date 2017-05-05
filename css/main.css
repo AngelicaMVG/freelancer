@@ -9,6 +9,35 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+/*navegador*/
+
+#links {
+  background: #2C3E50;
+  padding: 25px 0;
+}
+
+.brand {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 28px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu-link {
+  font-family: Montserrat;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  line-height: 36px;
+}
+
+.menu-link:hover {
+  color: #18BC9C;
+}
+
+
 
 #about {
   background: #18BC9C;
@@ -65,7 +94,7 @@
 
 .textos-p {
   font-family: lato;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 1px;
   line-height: normal;
 }
@@ -95,6 +124,7 @@
 .imagenes {
 
   margin-bottom: 90px;
+  margin-left: 30px;
 }
 
 #footer {
@@ -121,6 +151,11 @@
 li {
   list-style: none;
   display: inline-block;
+  padding: 5px;
+}
+
+li {
+  margin-top: 15px;
 }
 .btn-redSocial {
   color: #fff;
@@ -132,4 +167,38 @@ li {
   height: 50px;
   text-align: center;
   line-height: 45px;
+}
+
+.btn-redSocial:hover {
+  color:#18BC9C;
+  background: #fff;
+  transition: .3s;
+}
+
+.inputs-text {
+  border: none;
+  outline-style: none;
+  border-bottom: 2px solid #eee;
+  width: 100%;
+  font-size: 23px;
+  font-family: lato;
+  color: #555555;
+}
+
+.labelContact {
+  font-size: 25px;
+  font-family: lato;
+  margin-top: 5px;
+
+}
+
+.btn-send {
+  font-size: 20px;
+  font-family: lato;
+  background: #18BC9C;
+  color: #fff;
+  border-radius: 5px;
+  border: #11866f;
+  text-align: center;
+  padding: 10px;
 }
