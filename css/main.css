@@ -14,6 +14,7 @@
 #links {
   background: #2C3E50;
   padding: 25px 0;
+  position: fixed;
 }
 
 .brand {
@@ -35,6 +36,27 @@
 
 .menu-link:hover {
   color: #18BC9C;
+}
+
+#portada {
+  background: #18bc9c;
+  align-items: center;
+  padding-top: 200px;
+}
+
+.titulo {
+  font-size: 67px;
+  font-family: montserrat;
+  font-weight: bold;
+  color: #fff;
+}
+
+.texto-h3 {
+  color: #fff;
+  font-size: 25px;
+  font-family: lato;
+  font-weight: bold;
+  margin-bottom: 100px;
 }
 
 
