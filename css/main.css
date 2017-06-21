@@ -14,7 +14,11 @@
 #links {
   background: #2C3E50;
   padding: 25px 0;
+  height: 110px;
   position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .brand {
@@ -41,7 +45,7 @@
 #portada {
   background: #18bc9c;
   align-items: center;
-  padding-top: 200px;
+
 }
 
 .titulo {
